@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+html{
+  height: 1500px;
+}
+
+body {
+  margin: 0;
+  font-family: "hina-mincho", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  height: 100%;
+  width: 100%;
+  background-image: url("img/KAMI.jpg");
+}
+
+.background{
+  background-color: rgba(255, 234, 201, 0.8);
+  height: 1800px;
+  width: 100%;
+}
+
+header{
+  overflow:hidden;
+ }
+
+.title{
+  padding-top: 50px;
+}
+
+h1 {
+  transform: scaleX(2);
+  letter-spacing: 6px;
+  font-size: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 0;
+}
+
+h1::before {
+  left: calc(50% - 40px);
+  position: absolute;
+  bottom: 0;
+  content: '';
+  width: 100%;
+  border-bottom: 2px solid;
+}
+
+.container{
+  width: calc(100% - 100px);
+  margin: 0 auto;
+}
+
+.line-2 {
+  margin-top: 5px;
+  width: 50px;
+  height: 2px;
+  background-color: black;
+  margin-left: calc(50% + 10px)
+}
+
+img{
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.content {
+  max-width: 800px;
+  margin: 150px auto 0;
+
+}
+
+.main {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.explain{
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.sample{
+  color: white;
+  background-color: black;
+  width: 200px;
+  text-align: center;
+  letter-spacing: 20px;
+  font-size: 20px;
+}
+
+h2 span{
+  margin-right: -20px;
+}
+
+.price{
+  margin: 0 auto;
+  max-width: 500px;
+}
