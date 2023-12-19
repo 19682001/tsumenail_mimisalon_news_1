@@ -31,7 +31,7 @@ header{
 h1 {
   transform: scaleX(2);
   letter-spacing: 6px;
-  font-size: 100%;
+  font-size: 22px;
   position: relative;
   top: 0;
   left: 0;
@@ -39,7 +39,7 @@ h1 {
 }
 
 h1::before {
-  left: calc(50% - 40px);
+  left: calc(50% - 50px);
   position: absolute;
   bottom: 0;
   content: '';
@@ -57,7 +57,7 @@ h1::before {
   width: 50px;
   height: 2px;
   background-color: black;
-  margin-left: calc(50% + 10px)
+  margin-left: calc(50% + 15px)
 }
 
 img{
@@ -69,6 +69,9 @@ img{
   max-width: 800px;
   margin: 150px auto 0;
 
+}
+
+@media (max-width: 700px) {
 }
 
 .main {
